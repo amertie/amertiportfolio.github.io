@@ -1,0 +1,253 @@
+/* Basic styles */
+body {
+    font-family: 	'Brush Script MT', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    line-height: 1.6;
+
+  }
+  .nav a {
+    color: #DDC3A5;
+  }
+  .nav{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+   background-color: #201E20;
+  position: fixed; /* Set the navbar to fixed position */
+  color:#DDC3A5 ;
+  }
+  .font {
+    font-family:'Brush Script MT', cursive;
+  }
+  a:hover {
+    background-color: #0e030f;
+    
+  }
+
+  header {
+    background-color: #201E20;
+    color: #DDC3A5;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    background-color: #201E20;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 120px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+.wikimed {
+  height: 200px;
+  width: 200px;
+
+}
+
+
+
+
+/* Additional styles for the About Me section */
+#about {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .about-content {
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    color: #DDC3A5;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+
+  .bio {
+    max-width: 600px;
+    margin-top: 300px;
+    color: #DDC3A5;
+  
+  }
+  
+  .bio p {
+    margin-top: 0%;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #DDC3A5;
+  }
+  
+  /* Additional styles for the overall layout */
+  body {
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+#projects {
+  background-color: #201E20;
+  color:#DDC3A5 ;
+}
+  .project {
+    background-color: #201E20;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: #DDC3A5;
+  }
+  .proj {
+    background-color:#201E20 ;
+  }
+.projectss {
+  background-color:#201E20 ;
+}
+
+  .project p {
+   margin-left: 10px;
+   margin-right: 10px;
+   margin-top: 10px;
+  margin-bottom: 10px;
+  color: #DDC3A5;
+  }
+.wikimed {
+  margin-right: 20px;
+  max-width: 35%;
+  max-height: 35%;
+}
+.fas fa-phone {
+  &#xf095
+}
+.wikimed2 {
+  max-width: 35%;
+  max-height: 35%;
+  margin-right: 20px;
+}
+
+.wikimed3 {
+  max-width: 35%;
+  max-height: 35%;
+  margin-right: 20px;
+}
+
+  .project h3 {
+    margin-top: 0;
+    color: #DDC3A5;
+  }
+  
+  #skills ul {
+    background-color: #201E20;
+    list-style-type: none;
+    padding: 0;
+    color: #DDC3A5;
+  }
+  #skills {
+    color: #DDC3A5;
+  }
+  .skills li {
+    display: inline-block;
+    background-color:  #201E20;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: #DDC3A5;
+  }
+  #education {
+    background-color: #201E20;
+  color: #DDC3A5;
+  }
+  .education {
+    background-color: #201E20;
+    padding: 20px;
+    border-radius: 5px;
+  color: #DDC3A5;
+  }
+  .mainn {
+    background: #201E20 ;
+  }
+  
+  .education h3 {
+    margin-top: 0;
+    color: #DDC3A5;
+  }
+  
+  /* Add your custom styles here */
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+      color: #DDC3A5;
+      line-height: 1.6;
+  }
+  
+  h2 {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    color: #DDC3A5;
+  }
+  #contact {
+    color: #DDC3A5;
+  }
+  label {
+    display: block;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #060707;
+    color: #DDC3A5;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #060b0f;
+  }
