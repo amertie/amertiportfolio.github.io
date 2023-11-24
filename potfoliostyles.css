@@ -1,12 +1,14 @@
 /* Basic styles */
 body {
-    font-family: 	'Brush Script MT', cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
     margin: 0;
     padding: 0;
     background-color: #111;
     line-height: 1.6;
-
   }
+
+
+
   .nav a {
     color: #DDC3A5;
   }
@@ -19,7 +21,7 @@ body {
   color:#DDC3A5 ;
   }
   .font {
-    font-family:'Brush Script MT', cursive;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
   a:hover {
     background-color: #0e030f;
@@ -36,9 +38,11 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
   }
   .main {
     background-color: #201E20;
+  
   }
   
   nav ul li {
@@ -54,6 +58,7 @@ body {
   
   main {
     padding: 20px;
+    align-content: center;
   }
   
   section {
@@ -117,7 +122,9 @@ body {
   .bio p {
     margin-top: 0%;
     margin-bottom: 20px;
-    text-align: justify;
+    margin-left: 20%;
+    margin-right 0;;
+    text-align:inherit;
     color: #DDC3A5;
   }
   
