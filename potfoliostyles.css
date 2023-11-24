@@ -43,7 +43,8 @@ body {
   
   nav ul li {
     display: inline-block;
-    margin-right: 120px;
+    margin-right: 50px;
+    margin-left: 20px;
   }
   
   nav ul li a {
@@ -261,7 +262,32 @@ body {
     transform: translate(-50%, -50%);
   }
    
-
+  * {
+    background-color: #201E20;
+}
+.project {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.project img {
+    flex: 0 0 40%;
+    max-width: 30%;
+    margin-right: 20px;
+}
+.project .description{
+    flex: 1;
+}
+.description p {
+color: #DDC3A5;
+padding: 10px;
+margin-right: 10px;
+}
+.project h3 {
+  margin: 10px;
+  padding: 12px;
+  
+}
 
   #education {
     background-color: #201E20;
