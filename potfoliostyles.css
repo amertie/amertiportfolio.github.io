@@ -283,6 +283,10 @@ color: #DDC3A5;
 padding: 10px;
 margin-right: 10px;
 }
+.projects h2 {
+  margin: 10px;
+  padding: 12px;
+}
 .project h3 {
   margin: 10px;
   padding: 12px;
