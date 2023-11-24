@@ -59,11 +59,7 @@ body {
     margin-bottom: 40px;
   }
   
-.wikimed {
-  height: 200px;
-  width: 200px;
 
-}
 
 
 
@@ -82,12 +78,29 @@ body {
     align-items: center;
     color: #DDC3A5;
   }
-  
+  .border {
+    color: #DDC3A5;
+    border:bottom,left ;
+    border-bottom-color: #DDC3A5;
+    border-left-color: #DDC3A5;
+    border-bottom: 12px;
+    border-left: 12px;
+  }
+.icon {
+  width: 32px;
+  height: 30px;
+  vertical-align: baseline;
+  color: #DDC3A5;
+  align-items: inherit;
+}
+
+
   .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-bottom: 20px;
+    margin-top: 30px;
     align-items: center;
   }
   
@@ -122,6 +135,7 @@ body {
   background-color: #201E20;
   color:#DDC3A5 ;
 }
+
   .project {
     background-color: #201E20;
     padding: 20px;
@@ -129,9 +143,7 @@ body {
     border-radius: 5px;
     color: #DDC3A5;
   }
-  .proj {
-    background-color:#201E20 ;
-  }
+  
 .projectss {
   background-color:#201E20 ;
 }
@@ -143,14 +155,53 @@ body {
   margin-bottom: 10px;
   color: #DDC3A5;
   }
+
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-overlay {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .description {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+
+  
+  .image-overlay:hover .description {
+    opacity: 1;
+  }
+  
+  .webdescription {
+    margin: 0;
+  }
+
+
+
+
 .wikimed {
   margin-right: 20px;
   max-width: 35%;
   max-height: 35%;
 }
-.fas fa-phone {
-  &#xf095
-}
+
 .wikimed2 {
   max-width: 35%;
   max-height: 35%;
