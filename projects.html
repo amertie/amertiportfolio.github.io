@@ -6,10 +6,32 @@
     <title>projects</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" type="text/css" href="potfoliostyles.css">
-    <script src='main.js'></script>
     <style>
-        *{
-            background-color: #201E20 ;
+        * {
+            background-color: #201E20;
+        }
+        .project {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .project img {
+            flex: 0 0 40%;
+            max-width: 30%;
+            margin-right: 20px;
+        }
+        .project .description{
+            flex: 1;
+        }
+        .description p {
+      color: #DDC3A5;
+      padding: 10px;
+      margin-right: 10px;
+        }
+        .project h3 {
+          margin: 10px;
+          padding: 12px;
+          
         }
     </style>
 </head>
@@ -22,35 +44,28 @@
           <li><a href="projects.html">Projects</a></li>
           <li><a href="index.html">Contact</a></li>
           <li><a href="index.html">To make Inquiry</a></li>
-         
         </ul>
-      </nav>
+    </nav>
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-          <h3>Project 1</h3>
-          <p>Description of Project 1 </p>
+        <p> <h3> Description of Project I</p></h3>
 
+        <div class="project">
+          <p class="webdescription">This is a website I created with my team that provides medical assistance and offers first aid courses. We used HTML, CSS, and JavaScript for the frontend.</p>
+
+          
           <div class="image-container">
-            <div class="image-overlay">
-          <img src="wikimed.jpg" alt="wikimed" class="wikimed">
-              <div class="description">
-                <p class="webdescription">This is a website i create with my teams 
-                and it gives a medical assistance and some first aid courses.
-                we used html,css, and javascript for the frontend.  </p>            </div>
+            <img src="wikimed.jpg" alt="wikimed" class="wikimed">
+            <img src="wikimed2.jpg" alt="wikimed2" class="wikimed2">
+            <img src="wikimed3.jpg" alt="wikimed3" class="wikimed3"> 
+            <div class="description">
             </div>
           </div>
-          
-          </div>
-              <img src="wikimed2.jpg" alt="wikimed2" class="wikimed2">
-              <img src="wikimed3.jpg" alt="wikimed3" class="wikimed3"> 
-          </p>
         </div>
         <div class="project">
           <h3>Project 2</h3>
           <p>Description of Project 2</p>
         </div>
-      </section>
-    
+    </section>
 </body>
 </html>
