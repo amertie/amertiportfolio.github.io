@@ -1,4 +1,4 @@
-/* Basic styles */
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif ;
     margin: 0;
@@ -6,8 +6,6 @@ body {
     background-color: #111;
     line-height: 1.6;
   }
-
-
 
   .nav a {
     color: #DDC3A5;
@@ -17,7 +15,7 @@ body {
     margin-bottom: 10px;
     overflow: hidden;
    background-color: #201E20;
-  position: fixed; /* Set the navbar to fixed position */
+  position: fixed; 
   color:#DDC3A5 ;
   }
   .font {
@@ -66,11 +64,6 @@ body {
   }
   
 
-
-
-
-
-/* Additional styles for the About Me section */
 #about {
     background-color: #f9f9f9;
     padding: 40px;
@@ -128,7 +121,7 @@ body {
     color: #DDC3A5;
   }
   
-  /* Additional styles for the overall layout */
+  
   body {
     background-color: #fff;
     color: #333;
@@ -322,7 +315,7 @@ margin-right: 10px;
     color: #DDC3A5;
   }
   
-  /* Add your custom styles here */
+
 
   .container {
     max-width: 400px;
